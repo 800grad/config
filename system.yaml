@@ -18,7 +18,7 @@ home:
   alias: /home
   hide_in_urls: true
 pages:
-  theme: iloveu
+  theme: achthundertgrad
   order:
     by: default
     dir: asc
