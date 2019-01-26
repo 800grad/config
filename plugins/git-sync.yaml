@@ -1,0 +1,30 @@
+enabled: true
+text_var: 'Custom Text added by the **Git Sync** plugin (disable plugin to remove)'
+folders:
+  - pages
+  - themes
+  - plugins
+  - config
+  - data
+repository: 'https://github.com/benjamin-wunn/iloveu_grav.git'
+user: benjamin.wunn@icloud.com
+password: gitsync-def502005193a3d7a579478df29bd3a96d5b5bc4aca64f11711430efd088c5eaaaf181a3cc7b8b807a5f81b3c9d26e17b44ab23465909569d5453c7fd7871361b05a91486fc8b75e8218328f04caddfbd8f348650ff4c58dbe53159502fee21c109ef53a36e49b946daff0f247717ae107934f94e95d5b864e0b6167
+webhook: /_git-sync
+branch: master
+remote:
+  name: origin
+  branch: master
+git:
+  author: gituser
+  name: GitSync
+  email: git-sync@trilby.media
+  bin: git
+logging: false
+sync:
+  on_save: true
+  on_delete: true
+  on_media: true
+  cron_enable: false
+  cron_at: '0 12,23 * * *'
+webhook_enabled: '0'
+webhook_secret: b4b835f46e63deb7fb7d6b0985b9dce5e2562111cb0c73e6

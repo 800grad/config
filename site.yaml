@@ -1,0 +1,17 @@
+title: MTHRFCKNBASS
+default_lang: de
+author:
+  name: 'MTHRFCKNBASS'
+  email: info@MTHRFCKNBASS.com
+taxonomies:
+  - category
+  - tag
+metadata:
+  description: 'MTHRFCKNBASS ist eine Rave / DJ Crew aus Frankfurt am Main'
+summary:
+  enabled: true
+  format: short
+  size: 300
+  delimiter: '==='
+blog:
+  route: /blog
